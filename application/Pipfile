@@ -1,0 +1,27 @@
+[[source]]
+name = "pypi"
+url = "https://mirrors.aliyun.com/pypi/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+flask = "*"
+flask-cors = "*"
+flask-restful = "*"
+flask-sqlalchemy = "*"
+flask-socketio = "*"
+redis = "*"
+requests = "*"
+flask-script = "*"
+flask-migrate = "*"
+pymysql = "*"
+celery = "*"
+loguru = "*"
+librosa = "*"
+numpy = "*"
+pylab = "*"
+torch = "*"
+
+[requires]
+python_version = "3.9"
